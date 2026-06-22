@@ -1,0 +1,30 @@
+name: ble_controller
+description: "BLE gamepad controller app"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.34.5
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/dev.png
+
+flutter_launcher_icons:
+  android: true  
+  ios: false
+  image_path: "assets/icon.png"
