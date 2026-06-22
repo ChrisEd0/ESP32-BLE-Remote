@@ -6,6 +6,8 @@ Proyecto compuesto por dos partes:
 
 ## 🔧 testBLE (ESP32 - Arduino)
 
+![Monitor serial](images/serialMonitor.png)
+
 ### 📌 Función
 Firmware para ESP32 que permite:
 
@@ -22,6 +24,8 @@ Firmware para ESP32 que permite:
 ---
 
 ## 📱 ble_controller (Flutter App)
+
+![Flutter UI](images/conexion.png)
 
 ### 📌 Función
 Aplicación móvil para:
